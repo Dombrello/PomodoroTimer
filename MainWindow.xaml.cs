@@ -21,7 +21,7 @@ namespace PomodoroTimer
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick += Timer_Tick;
 
-            remainingTime = TimeSpan.FromMinutes(0.5); // Domyślny czas w minutach
+            remainingTime = TimeSpan.FromMinutes(25); // Domyślny czas w minutach
             UpdateUI();
         }
 
